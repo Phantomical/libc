@@ -410,7 +410,7 @@ cfg_if! {
         pub use self::l4re::*;
     } else {
         mod other;
-        pub use other::*;
+        pub use self::other::*;
     }
 }
 
